@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#bootstrap
+/src/assets/scss/bootstrap
+/public/img
 # testing
 /coverage
 

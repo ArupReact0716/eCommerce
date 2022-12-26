@@ -1,0 +1,151 @@
+body {
+    font-size: 14px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #07ac8b;
+}
+.list-style-none {
+    list-style: none;
+}
+// //////////////////////////////////
+/////font size 
+/////////////////////////
+.fs-15 {
+    font-size: 15px !important;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+/*======================================================
+                    image
+======================================================*/
+.ratio-contain {
+    position: relative;
+    display: block;
+    height: 100%;
+    z-index: 5;
+
+    .ratio-contain-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .ratio-15,
+    .ratio-30,
+    .ratio-40,
+    .ratio-50,
+    .ratio-60,
+    .ratio-65,
+    .ratio-75 {
+        position: relative;
+        display: block;
+        height: 100%;
+        background-image: unset !important;
+    }
+}
+
+.ratio-15 {
+    padding-top: 15%;
+}
+
+.ratio-30 {
+    padding-top: 30%;
+}
+
+.ratio-40 {
+    padding-top: 40%;
+}
+
+.ratio-50 {
+    padding-top: 50%;
+}
+
+.ratio-65 {
+    padding-top: 65%;
+}
+
+.ratio-75 {
+    padding-top: 80%;
+}
+
+@media (min-width: 768px) {
+
+    .ratio-md-30 {
+        padding-top: 30%;
+    }
+
+    .ratio-md-40 {
+        padding-top: 40%;
+    }
+
+    .ratio-md-50 {
+        padding-top: 50%;
+    }
+
+    .ratio-md-60 {
+        padding-top: 60%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .ratio-lg-30 {
+        padding-top: 30%;
+    }
+
+    .ratio-lg-40 {
+        padding-top: 40%;
+    }
+
+    .ratio-lg-50 {
+        padding-top: 50%;
+    }
+
+    .ratio-lg-60 {
+        padding-top: 60%;
+    }
+
+}
+
+
+/*======================================================
+                    Container
+======================================================*/
+.webx-container {
+    padding: 0 calc(12px + (160 - 12) * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+.webx-container-fluid {
+    padding: 0 calc(10px + 75 * ((100vw - 320px) / (1920 - 320)));
+}
+
+.kart-container-fluid {
+    padding: 0 calc(10px + 75 * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+/*======================================================
+                    Tooltip
+======================================================*/
+.tooltips {
+    .tooltip-inner {
+        color: #fff;
+        background: #07ac8b;
+        border-radius: 3px;
+    }
+
+    .arrow {
+        &::before {
+            border-top-color: #07ac8b !important;
+        }
+    }
+}
